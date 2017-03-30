@@ -1,0 +1,35 @@
+/*second css file*/
+
+body {
+    background-color: #ccc;
+    background-image:url('images/black_background_wood_clean-wallpaper-1024x768.jpg');
+}
+
+.thin-shadowed {
+	-moz-box-shadow: 0px 0px 8px #ccc;
+	-webkit-box-shadow: 0px 0px 8px #ccc;
+	box-shadow: 0px 0px 8px #ccc;
+}
+.error{
+    color: red;
+    padding-left: 5px;
+}
+#wrapper{
+    margin: 0 auto;
+    width: 98%;
+
+}
+.panelHeader{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.header2{
+    display: none;
+    background-color: lightblue;
+}
